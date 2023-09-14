@@ -1,0 +1,116 @@
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+  }
+  
+/* General */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+  
+header > img{
+    margin: 0;
+    padding: 0;
+}
+  
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 70px;
+    background-color: black;
+    width: auto;
+}
+  
+.snakers {
+    height: 70px;
+}
+  
+nav {
+    flex: 1;
+    text-align: right;
+    
+}
+  
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.snakers {
+    height: 70px;
+}
+
+.paymentTitle {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Footer CSS */
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+  
+.footerTitle {
+    font-family:cursive;
+}
+  
+.footer{
+    display: flex;
+}
+  
+.footerLogo{
+    display: block;
+    min-zoom: 100px;
+}
+  
+.footerCompany{
+    flex: 1;
+    padding-left: 5em;
+}
+  
+.footerCategory{
+    flex: 1;
+}
+
+.footerSupport{
+    flex:1;
+}
+  
+.footerFollow{
+    flex: 1;
+}
+  
+.igpic {
+    height: 20px;
+}
+  
+.fbpic{
+    height: 20px;
+}
+    

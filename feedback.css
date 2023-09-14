@@ -1,0 +1,193 @@
+*{    
+    box-sizing: border-box;
+    
+}    
+
+/* General */
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-bottom: 35px;
+}
+
+header > img{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  height: 70px;
+  background-color: black;
+  width: auto;
+
+}
+
+.snakers {
+  height: 70px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  
+}
+
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.snakers {
+  height: 70px;
+}
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 15px;    
+  border: 6px solid rgb(17, 68, 10);  
+  border-radius: 15px;    
+  resize: vertical;   
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 15px;    
+  border: 6px solid rgb(17, 68, 10);    
+  border-radius: 15px;    
+  resize: vertical;    
+}    
+      
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;
+}    
+      
+input[type=submit] { 
+  background-color: black;   
+  color: white;    
+  padding: 20px 60px;    
+  border: none;    
+  border-radius: 15px;    
+  cursor: pointer;    
+  float: right;    
+}    
+      
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}
+  
+.fbacktitle{
+  text-align:center;
+  color: rgb(17, 68, 10);
+}
+
+.fbackname{
+  font-size: 180%;
+}
+
+.fbacksubmit{
+  font-size: 100%;
+}
+
+.fbackfback{
+  height: 200px;
+}
+      
+.container {    
+  border-radius: 15px;    
+  background-color: rgb(193, 182, 182);
+  color: black;  
+  padding: 30px;    
+}    
+      
+.col1 {    
+  float: left;    
+  width: 100%;    
+  margin-top: 6px;    
+}    
+      
+.col2 {    
+  float: left;    
+  width: 100%;    
+  margin-top: 6px;
+}    
+      
+.feedbackTitle {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+
+}    
+  /* Footer CSS */
+footer{
+  display: block;
+  background-color: black;
+  color: white;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+.footerTitle {
+  font-family:cursive;
+}
+
+.footer{
+  display: flex;
+}
+
+.footerLogo{
+  display: block;
+  min-zoom: 100px;
+}
+
+.footerCompany{
+  flex: 1;
+  padding-left: 5em;
+}
+
+.footerCategory{
+  flex: 1;
+}
+
+.footerSupport{
+  flex:1;
+}
+
+.footerFollow{
+  flex: 1;
+}
+
+.igpic {
+  height: 20px;
+}
+
+.fbpic{
+  height: 20px;
+}

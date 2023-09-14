@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Payment </title>
+  <link href="style1.css" rel="stylesheet">
+  <link href="payment.css" rel="stylesheet">
+  <script type="text/javascript">
+      function cancelOrder(){
+         if(confirm("Are you sure you want to cancel this order?")==1){
+            document.reset();
+            window.reload();
+         }
+      }
+      function submitOrder(){
+        if(confirm("Dear customer, your order has been successfully submitted. You may receive your order items within 10days")==1){
+        document.reset();
+        window.reload();
+        }
+      }
+
+  </script>
+
+</head>
+<body>
+  <header>
+    <div class="header">
+        <div class="logo">
+            <a href="home.html"><img class="snakers" src="snakers.png" alt="logo" /></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="home.html">Home</a></li>                    
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="rev-section">
+
+
+<h1 class="paymentTitle">CUSTOMER PERSONAL INFORMATION</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+
+    <label for="PhoneNumber">Phone Number</label>
+    <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="XXX-XXX XXXX" required>
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email address here" required>
+      
+     <label for="address">First line of your address</label>
+    <input type="text" id="address" name="address" placeholder="Enter First line of your address here" required>
+    
+    <label for="address">Second line of your address</label>
+    <input type="text" id="address" name="address" placeholder="Enter Second line of your address here" required>
+    
+    <label for="postcode">Postcode</label>
+    <input type="text" id="postcodepostcode" name="postcode" placeholder="Enter your postcode here" required>
+    
+    <label for="state">State</label>
+    <input type="text" id="statestate" name="state" placeholder="Enter your state here" required>
+    
+    <label>
+    <input type="checkbox" checked="checked" name="sameadr" required> I have read the terms and condition and I understand it
+    </label>
+    <div class="sum">
+    <input type="submit" value="Submit" onclick="submitOrder()">
+    <input type="submit" value="Cancel" onclick="cancelOrder()">
+</div>
+</form>
+<footer>
+    <div class="logo">
+        <a href="home.html"><img class="snakers" src="snakers.png" alt="logo" /></a>
+    </div>
+    <div class="footer">
+        <div class="footerCompany">
+            <h3 class="footerTitle">Company</h3>
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="location.html">Location</a></p>
+            <p><a href="timetable.html">Timetable</a></p>
+            <p><a href="terms.html">Terms & Conditions</a></p>
+        </div>
+    
+        <div class="footerCategory">
+            <h3 class="footerTitle">Category</h3>
+            <p><a href="men.html">Men Shoes</a></p>
+            <p><a href="women.html">Women Shoes</a></p>
+            <p><a href="kids.html">Kids Shoes</a></p>
+        </div>
+        <div class="footerSupport">
+            <h3 class="footerTitle">Support</h3>
+            <p><a href="faq.html">FAQ</a></p>
+            <p><a href="feedback.html">Feedback</a></p>
+            <p><a href="review.html">Review</a></p>
+            <p><a href="partners.html">Partners</a></p>
+        </div>
+        <div class="footerFollow">
+            <h3 class="footerTitle">Follow us</h3>
+            <div class="ig-icon">
+                <p><a href="https://www.instagram.com/scz_1020/">
+                    <img class="igpic" src="social-media/ig.png"></a>
+                </p>
+            </div>
+            <div class="fb-icon">
+                <p><a href="https://www.facebook.com/chen.zhe.526">
+                    <img class="fbpic" src="social-media/fb.png"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

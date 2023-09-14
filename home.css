@@ -1,0 +1,257 @@
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+}
+
+/* General */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header > img{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 70px;
+    background-color: black;
+    width: auto;
+}
+
+.snakers {
+    height: 70px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Video */
+.video1 {
+    width: auto;
+    height: 400px;
+}
+
+
+
+.number{
+    display: inline-block;
+}
+.introductionVideo{
+    text-align: center;
+    background-color: black;
+}
+
+.homeTitle {
+    font-size: 3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+.topshoes{
+    display: flex;
+    padding: 3px;
+    padding-top: 4px;
+    justify-content: space-between;
+}
+.shoesBox {
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    margin: 6px;
+}
+.namePrice {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 2px; 
+}
+.shoes1{
+    flex:1;
+    height: 280px;
+    width: 280px;
+    margin: 15px;
+}
+.shoes2{
+    flex:1;
+    height: 280px;
+    width: 280px;
+    margin: 15px;
+}
+.shoes3{
+    flex:1;
+    height: 280px;
+    width: 280px;
+    margin: 15px;
+}
+.gender {
+    width: 100%;
+    padding: 5px;
+}
+.genderPic{
+    width: 250px;
+    height: 300px;
+}
+
+/* Hover */
+.MWK {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.mens{
+    cursor:pointer;
+	position:relative;
+	padding:10px 20px;
+	background:white;
+	font-size:28px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	transition:all 1s;
+}
+.mens:hover{
+border-top-right-radius:0px;
+border-bottom-left-radius:0px;
+background:rgba(69, 56, 56, 0.281);
+color:black;
+}
+
+.womens{
+    cursor:pointer;
+	position:relative;
+	padding:10px 20px;
+	background:white;
+	font-size:28px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	transition:all 1s;
+}
+.womens:hover{
+border-top-right-radius:0px;
+border-bottom-left-radius:0px;
+background:rgba(225, 173, 222, 0.945);
+color:black;
+}
+
+.kids{
+    cursor:pointer;
+	position:relative;
+	padding:10px 20px;
+	background:white;
+	font-size:28px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	transition:all 1s;
+}
+.kids:hover{
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    background:rgba(220, 192, 192, 0.5);
+    color: black;
+}
+
+/* Animation */
+.animation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:orange; left:200px; top:0px;}
+    50%  {background-color:yellow; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
+.animationP {
+    text-align: center;
+    padding-top: 63px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 25px;
+}
+/* Footer CSS */
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 230px;
+    padding-bottom: 20px;
+}
+
+.footerTitle {
+    font-family:cursive;
+}
+
+.footer{
+    display: flex;
+}
+
+.footerLogo{
+    display: block;
+    min-zoom: 100px;
+}
+
+.footerCompany{
+    flex: 1;
+    padding-left: 5em;
+}
+
+.footerCategory{
+    flex: 1;
+}
+
+.footerSupport{
+    flex:1;
+}
+
+.footerFollow{
+    flex: 1;
+}
+
+.igpic {
+    height: 20px;
+}
+
+.fbpic{
+    height: 20px;
+}
